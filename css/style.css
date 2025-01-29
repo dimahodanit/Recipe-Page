@@ -131,6 +131,7 @@ body {
   padding-left: 27px;
   border-bottom: 1px solid hsl(30, 18%, 87%);
   line-height: 3em;
+  color: hsl(14, 45%, 36%);
 }
 
 .table__text {
