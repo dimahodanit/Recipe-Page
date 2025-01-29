@@ -105,7 +105,7 @@ body {
 .section__list_item:last-child {
   margin: 0;
 }
-.section__header-h3 {
+.section__header-h2 {
   font-family: "Outfit-SemiBold";
   font-size: 18px;
   color: hsl(332, 51%, 32%);
