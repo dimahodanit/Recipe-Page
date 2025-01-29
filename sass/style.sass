@@ -1,0 +1,140 @@
+*  
+    box-sizing: border-box
+
+@font-face
+    font-family: "Outfit"
+    src : url('../fonts/outfit/static/Outfit-Regular.ttf')
+    font-weight: 400
+    font-style: normal
+
+@font-face
+    font-family: "Outfit-Bold"
+    src : url('../fonts/outfit/static/Outfit-Bold.ttf')
+    font-weight: 700
+    font-style: normal
+
+@font-face
+    font-family: "Outfit-SemiBold"
+    src : url('../fonts/outfit/static/Outfit-SemiBold.ttf')
+    font-weight: 600
+    font-style: normal
+
+@font-face
+    font-family: "Young-Serif"
+    src : url('../fonts/young-serif/YoungSerif-Regular.ttf')
+    font-weight: 400
+    font-style: normal
+
+
+html
+    font-family: "Outfit"
+    color: hsl(30, 10%, 34%)
+    font-size: 16px
+    
+
+body
+    background: hsl(30, 54%, 90%)
+    padding-top: 10%
+    padding-bottom: 10%
+    display: flex
+    align-items: center
+    justify-content: center
+
+.container
+    max-width: 800px
+    height: auto
+    background: white
+    border-radius: 20px
+    background: white
+    margin-right: 10px
+    margin-left: 10px
+
+
+.head
+    padding: 5%
+    &__img
+        max-width: 100%
+        border-radius: 15px
+
+.section
+    padding: 5%
+    padding-top: 0
+    line-height: 1.5em
+    &__header
+        font-size: 30px
+        color: hsl(14, 45%, 36%)
+        font-weight: 400
+        font-family: "Young-Serif"
+        margin: 0
+        margin-bottom: 1em
+    &__header-h1
+        line-height: 1em
+        font-size: 35px
+        color: black
+        margin-bottom: 0.5em
+    &__text
+        margin-bottom: 2em
+    &__info
+        max-width: 720px
+        background: hsl(330, 100%, 98%)
+        border-radius: 15px
+        padding: 25px
+    &__list
+        list-style: disc
+        list-style-position: outside
+        padding-left: 27px
+    &__list-ordered
+        list-style: decimal
+    ::marker
+        font-weight: bold
+    &__list_item
+        padding-left: 15px
+        margin-bottom: 1em
+        &:last-child
+            margin: 0
+    &__header-h3
+        font-family: "Outfit-SemiBold"
+        font-size: 18px
+        color: hsl(332, 51%, 32%)
+    &__bolt_text
+        font-weight: 600
+.hr_margin
+    margin-bottom: 2em
+
+.ingridients_section
+    padding-bottom: 0px
+    margin-bottom: 3%
+.table 
+   width: 100%
+   
+
+.table__column
+    padding-left: 27px
+    border-bottom: 1px solid hsl(30, 18%, 87%)
+    line-height: 3em
+    
+.table__text
+    margin-bottom: 1em
+
+.section__table
+    margin-bottom: 1em
+    
+
+@media (max-width: 575px) //mobile
+    .head
+        padding: 0
+        padding-bottom: 10%
+        &__img
+            max-width: 100%
+            border-radius: 0px
+        
+
+
+    
+
+
+
+     
+        
+
+    
