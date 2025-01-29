@@ -89,7 +89,7 @@ body {
   max-width: 720px;
   background: hsl(330, 100%, 98%);
   border-radius: 15px;
-  padding: 1em 2em 2em 1em;
+  padding: 1em 2em 2em 2em;
 }
 .section__list {
   list-style: disc;
